@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-// import videoBg from "./assets/shorter-wedding-video-two.mp4";
 import videoBg from "./assets/shorter-wedding-video-two.mp4";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import Commercial from "./components/Commercial";
 import Nav from "./components/Nav";
-// note for update
 function App() {
   return (
     <div>

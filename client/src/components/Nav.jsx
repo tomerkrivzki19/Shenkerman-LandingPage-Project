@@ -26,13 +26,13 @@ function Nav() {
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="#">
+            <a href="/">
               <li>Home</li>
             </a>
             <a href="#">
               <li>Contact</li>
             </a>
-            <a href="#">
+            <a href="/Projects">
               <li>Projects</li>
             </a>
           </ul>
