@@ -1,5 +1,5 @@
-import React from "react";
-import videoBg from "./assets/shorter_wedding_video.mp4";
+import React, { useEffect } from "react";
+import videoBg from "./assets/shorter-wedding-video-two.mp4";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
