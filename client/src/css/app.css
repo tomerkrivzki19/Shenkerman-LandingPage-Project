@@ -2,6 +2,8 @@
 @import "commercial.css";
 @import "nav.css";
 @import "projects.css";
+@import "contact.css";
+@import "footer.css";
 
 /* close object style */
 @import "close.css";

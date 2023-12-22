@@ -29,7 +29,7 @@ function Nav() {
             <a href="/">
               <li>Home</li>
             </a>
-            <a href="#">
+            <a href="/Contact">
               <li>Contact</li>
             </a>
             <a href="/Projects">
