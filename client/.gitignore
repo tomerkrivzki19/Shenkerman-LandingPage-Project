@@ -23,6 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # tomer addon for the video bug
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+
+# Specific file to ignore (if needed)
 client/src/assets/shorter_wedding_video.mp4
-.mov
-.avi

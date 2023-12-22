@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Commercial() {
+  const [bol, setBol] = useState();
+  const bolOpen = () => {
+    setBol(!bol);
+  };
   return (
     <div className="commarcial-container">
       <h4>
