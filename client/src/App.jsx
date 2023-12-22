@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import Commercial from "./components/Commercial";
 import Nav from "./components/Nav";
-
+// note for update
 function App() {
   return (
     <div>
