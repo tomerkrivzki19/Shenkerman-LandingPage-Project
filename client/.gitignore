@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # tomer addon for the video bug
-shorter_wedding_video.mp4
+client/src/assets/shorter_wedding_video.mp4
 .mov
 .avi
