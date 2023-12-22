@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import videoBg from "./assets/shorter-wedding-video-two.mp4";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
+
 import Commercial from "./components/Commercial";
 import Nav from "./components/Nav";
 function App() {
@@ -16,7 +15,18 @@ function App() {
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="scrool-down-btn">
-          <i>V/scrool down</i>
+          <div class="textWrapper">
+            <div class="originalText">
+              <a id="textStyle">
+                <IoIosArrowDown />
+              </a>
+            </div>
+            <div class="replacementText">
+              <a href="#sectionID" id="textStyle" className="scroll">
+                Scroll Down
+              </a>
+            </div>
+          </div>
         </div>
         <div className="video-content">
           <video src={videoBg} autoPlay loop muted />
@@ -31,7 +41,7 @@ function App() {
               alt=""
             />
           </div>
-          <div className="client-about-lorem-container">
+          <div className="client-about-lorem-container" id="sectionID">
             <h4>Lorem, ipsum dolor.</h4>
             <p>
               <b>
