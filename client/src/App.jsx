@@ -3,10 +3,14 @@ import videoBg from "./assets/shorter_wedding_video.mp4";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import Commercial from "./components/Commercial";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
+      <Commercial />
+      <Nav />
       <div className="video-container">
         <div className="content-container">
           <h2>THIS IS MAIN TOPIC BLABLALBA.</h2>

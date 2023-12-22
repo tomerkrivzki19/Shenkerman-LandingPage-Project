@@ -1,0 +1,11 @@
+.commarcial-container {
+  position: absolute;
+  padding: 0.5em 0;
+  top: 0;
+  z-index: 50;
+  background-color: #3c505d;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,88 @@
+#container {
+  position: absolute;
+  top: 1.2em;
+  left: 0.5em;
+  z-index: 100;
+}
+#menuToggle {
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  width: 40px;
+
+  z-index: 2; /* in order to place the checkbox over the hamburguer */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block; /* to ensure that each span element occupies its own line. */
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px; /* create some spacing between the span elements. */
+  position: relative; /* allow for positioning changes in relation to the parent div.*/
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1; /* ensure that the span element is under the checkbox */
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transform-origin: 4px 0px; /* set to 4px 0px to specify the center of rotation for the transform property above. */
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+#menu {
+  position: absolute;
+  left: -300px;
+  top: 80px;
+  width: 150px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  /* background: pink; */
+  background-color: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  transition: left 0.5s;
+  height: 90vh;
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+#menuToggle input:checked ~ ul {
+  left: 40px;
+}
