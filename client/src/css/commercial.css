@@ -9,3 +9,14 @@
   text-align: center;
   width: 100%;
 }
+#commercialHeader {
+  text-decoration: none;
+}
+
+.commercialLineThrew {
+  color: white;
+  cursor: pointer;
+}
+.commercialLineThrew:hover {
+  color: black;
+}
