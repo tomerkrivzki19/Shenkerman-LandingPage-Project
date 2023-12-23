@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
         <div className="video-content">
-          <video src={videoBg} autoPlay loop muted />
+          <video src={videoBg} autoPlay loop muted playsInline />
         </div>
       </div>
 
