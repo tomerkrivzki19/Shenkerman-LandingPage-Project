@@ -1,6 +1,17 @@
 /* background iamge -need to add */
-.video-content img {
-  width: 500px;
+.image-projects-content {
+  position: fixed;
+  transform: translate3d(0px, 0px, 0px);
+  overflow: hidden;
+  display: flex;
+}
+
+.image-projects-content img {
+  /* do not tutch!! */
+  display: block;
+  padding-bottom: 5em;
+  max-width: 100%;
+  height: 80vh;
 }
 .main-content-projects-container {
   z-index: 80;
