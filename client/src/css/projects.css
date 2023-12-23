@@ -1,11 +1,19 @@
 /* background iamge -need to add */
+
 .image-projects-content {
+  overflow-x: hidden;
   position: fixed;
   transform: translate3d(0px, 0px, 0px);
-  overflow: hidden;
   display: flex;
 }
-
+.main-content-projects-container h3 {
+  padding-top: 0.5em;
+}
+.main-content-projects-container p {
+  width: 100%;
+  padding: 1em 2em;
+  direction: rtl;
+}
 .image-projects-content img {
   /* do not tutch!! */
   display: block;
@@ -15,23 +23,27 @@
 }
 .main-content-projects-container {
   z-index: 80;
-  margin-top: 2em;
-
+  margin-top: 0.5em;
   width: 100%;
   position: relative;
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-
   display: flex;
   flex-direction: row;
   padding: 0em;
+  overflow-x: hidden;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.main-content-projects-container .large-image {
+}
+
+.main-content-projects-container .large-image .large {
+  width: 100%;
+}
+
 .main-content-projects-container img {
-  padding: 2em 0;
+  padding: 0.5em 0;
   padding-left: 0.5em;
   width: 30%;
 }
