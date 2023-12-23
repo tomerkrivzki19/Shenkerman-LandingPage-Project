@@ -29,11 +29,11 @@ function Nav() {
             <a href="/">
               <li>Home</li>
             </a>
-            <a href="/Contact">
-              <li>Contact</li>
-            </a>
             <a href="/Projects">
               <li>Projects</li>
+            </a>
+            <a href="/Contact">
+              <li>Contact</li>
             </a>
           </ul>
         </div>

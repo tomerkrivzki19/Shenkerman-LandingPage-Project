@@ -33,7 +33,7 @@ function Commercial() {
       <Link to={"/Projects"} id="commercialHeader">
         <h4 className="commercialLineThrew">
           {/* 📷 מוזמנים לבדוק את הפרוייקטים שלי - מלאו את הפרטים ותיצרו איתי קשר */}
-          👆 מוזמנים לבדוק את חבילות הצילום שאני מציע
+          מוזמנים לבדוק את גלריית העבודות שלי
         </h4>
       </Link>
       <a href="#" class="close" onClick={() => setBol(!bol)}></a>

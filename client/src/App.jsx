@@ -11,8 +11,8 @@ function App() {
       <Nav />
       <div className="video-container">
         <div className="content-container">
-          <h2>THIS IS MAIN TOPIC BLABLALBA.</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h2>Or Shenkerman Phothogrphy.</h2>
+          <p>Israel • Tel-Aviv</p>
         </div>
         <div className="scrool-down-btn">
           <div class="textWrapper">
@@ -37,22 +37,52 @@ function App() {
         <div className="client-about-container">
           <div className="client-image-container">
             <img
+              id="sectionID"
               src="https://images.squarespace-cdn.com/content/v1/568429b7c647addb5746fafe/425738c3-fe46-4019-912f-f81e9bb997a2/Hearnes-Moab-Utah-Elopement-Photographers-5.jpg?format=750w"
               alt=""
             />
           </div>
-          <div className="client-about-lorem-container" id="sectionID">
+          <div className="client-about-lorem-container">
             <h4 className="hebrew">קצת עליי:</h4>
-            <p className="hebrew">היי אני <b>אור שנקרמן</b>, חושף לכם את חיי היומיום שמתמלאים ב<b>נסיעות</b>, <b>צילום</b>, ורגעים שמתמשכים ל<b>סיפורים מדהימים</b>. אני בן 24, אני <b>צלם חתונות עצמאי</b> מתל אביב. העבודה שלי היא לא רק עיסוק; זו החירות האישית שאני מוצא בכל <b>צילום חדש</b>.</p>
+            <p className="hebrew">
+              <b> היי אני אור שנקרמן</b>, חושף לכם את חיי היומיום שמתמלאים ב
+              נסיעות, צילום, ורגעים שמתמשכים לסיפורים מדהימים.{" "}
+              <b> אני בן 31 , אני צלם חתונות עצמאי מתל אביב.</b> העבודה שלי היא
+              לא רק עיסוק, זו החירות האישית שאני מוצא בכל צילום חדש.
+            </p>
             <br />
-<p className="hebrew">אני לא יכול שלא להתמסר ל<b>עולם</b> ולא לשתף את ה<b>חוויות המדהימות</b> שאני חווה במסעות שלי. כל פינה חדשה, כל ים והר, הם בשבלי לוחות <b>ציור חדשים</b> ל<b>סיפורים</b> שאני מצלם. אני מאמין שיש משהו <b>ייחודי</b> בכל <b>מקום</b>, והמשימה שלי היא ל<b>לכוד</b> את ה<b>יופי</b> שבזמן שהוא קיים.</p>
-<br />
-<p className="hebrew">כ<b>צלם</b>, התפקיד שלי הוא לא רק ל<b>צלם</b>; זה גם ל<b>ספר סיפור</b>. אני יודע ל<b>התאים</b> את ה<b>סגנון</b> שלי ל<b>אירוע</b>, ל<b>נווט</b> בקלות מ<b>סגנון</b> ל<b>סגנון</b> יחודי , כי כל <b>חתונה</b> היא <b>ייחודית</b>, וה<b>סיפור</b> צריך ל<b>התאים</b> אליה.</p>
-<br />
-<p className="hebrew">ואז יש עוד משהו שאני מצלם דרכו וזה <b>רחפנים</b>. השילוב שלי בין <b>טכנולוגיה</b> ו<b>אהבה</b> ל<b>הרפתקאות</b> מוביל ל<b>צילומים מאוויר</b> שהם פשוט <b>מדהימים</b>. אני יודע להוסיף קצת <b>גוון</b> ו<b>דרמה</b> לתיק ה<b>עבודות</b> שלי.</p>
-<br />
-<p className="hebrew">אני לא רק <b>צלם</b>. אני <b>סופר חזוני</b> שמבין את ה<b>חשיבות</b> של כל <b>רגע</b>. כשאני מצלם, אני בעצם יוצר <b>סיפור מתמיד</b>, של <b>אהבה</b>, <b>שמחה</b>, ו<b>חגיגה</b>. זה לא פשוט <b>צילומים</b>; זה אמנות, זה ה<b>סיפור</b> שלך בכל <b>תמונה</b>. אז אם אתה מחפש <b>צלם חתונות</b> שמבין את ה<b>אמנות</b> וגם יודע ל<b>השתמש</b> ב<b>טכנולוגיה</b> בצורה ייחודית, אתה במקום הנכון. אני כאן, אני <b>אור שנקרמן</b>, ואני מזמין אותך להיות חלק מה<b>סיפור</b>.</p>
-
+            <p className="hebrew">
+              אני לא יכול שלא להתמסר לעולם ולא לשתף את החוויות המדהימות שאני
+              חווה במסעות שלי. כל פינה חדשה, כל ים והר, הם בשבלי לוחות{" "}
+              <b>
+                ציור חדשים לסיפורים שאני מצלם. אני מאמין שיש משהו <b>ייחודי</b>{" "}
+                בכל מקום , והמשימה שלי היא ללכוד את היופי שבזמן שהוא קיים.
+              </b>
+            </p>
+            <br />
+            <p className="hebrew">
+              כצלם, התפקיד שלי הוא לא רק לצלם, זה גם לספר סיפור. אני יודע ל
+              התאים את הסגנון שלי לאירוע,
+              <b> לנווט בקלות מסגנון לסגנון יחודי </b> , כי כל חתונה היא
+              ייחודית, וה סיפור צריך להתאים אליה.
+            </p>
+            <br />
+            <p className="hebrew">
+              <b> ואז יש עוד משהו שאני מצלם דרכו וזה רחפנים. </b>
+              השילוב שלי בין טכנולוגיה ואהבה להרפתקאות מוביל לצילומים מאוויר שהם
+              פשוט מדהימים. אני יודע להוסיף קצת גוון ודרמה לתיק העבודות שלי.
+            </p>
+            <br />
+            <p className="hebrew">
+              אני לא רק צלם. אני סופר חזוני שמבין את החשיבות של כל רגע. כשאני
+              מצלם, אני בעצם יוצר סיפור מתמיד, של אהבה, שמחה, ו חגיגה.
+              <b>
+                זה לא פשוט צילומים, זה אמנות, זה ה סיפור שלך בכל תמונה. אז אם
+                אתה מחפש צלם חתונות שמבין את האמנות וגם יודע להשתמש ב טכנולוגיה
+                בצורה ייחודית, אתה במקום הנכון.
+              </b>
+              אני כאן, אני אור שנקרמן, ואני מזמין אותך להיות חלק מהסיפור.
+            </p>
           </div>
         </div>
 
@@ -66,62 +96,77 @@ function App() {
 
         <div className="client-projects-contaier">
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/8821dc83-17ef-419b-abef-d585c0d7a51b.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x853q85/1ec4fbaa-f965-426f-b932-d3c4156aabde.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/c86791c3-9838-4f48-b4e8-45a459251474.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/aa7168ef-13ea-4b15-822d-1d9cdef607fc.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/7f788356-be20-418a-adea-79e3f1738b71.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/efcb4ec7-369a-4414-9039-e86207dfeb2c.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x1251q85/9eb20f11-0a44-4b63-8190-16f267491c62.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/1280x854q85/635f0262-9a4c-48ad-9238-4aae62bdd372.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/720x900q85/c8b31d5d-a18e-487b-842d-d43ccbb1ca78.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/26f2daa3-8e6f-414c-9156-8368fc66e30d.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/c1f48f77-e2f5-4514-a9c5-26b9d79e39c9.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/1dd9d554-c965-4ec1-840a-a77e9bcad5cf.jpg"
             alt=""
           />
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/70cc3e62-fa06-442d-b1e5-7765eed9e166.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/d393d7b9-2d7d-4882-93bc-39dd8d8bcd8c.jpg"
             alt=""
           />{" "}
           <img
+            className="opacity"
             src="https://assets.picflow.io/images/resized/640x960q85/67c94eed-7bcf-46e5-a3aa-27c39ef08029.jpg"
             alt=""
           />{" "}

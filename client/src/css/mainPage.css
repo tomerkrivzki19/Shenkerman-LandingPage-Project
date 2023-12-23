@@ -7,6 +7,11 @@
   /* for sites not workin but on iphones working  -- need to*/
   /* overflow-x: hidden; */
 }
+html,
+body {
+  overscroll-behavior-y: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -161,7 +166,7 @@ body {
 .textWrapper:hover .replacementText {
   opacity: 1;
 }
-.hebrew{
+.hebrew {
   direction: rtl;
 }
 
@@ -169,4 +174,10 @@ body {
 .scroll {
   text-decoration: none;
   color: white;
+}
+
+/* opacity effect */
+.opacity:hover {
+  cursor: pointer;
+  filter: opacity(50%);
 }
