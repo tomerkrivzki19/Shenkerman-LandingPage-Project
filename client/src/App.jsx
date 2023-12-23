@@ -42,59 +42,17 @@ function App() {
             />
           </div>
           <div className="client-about-lorem-container" id="sectionID">
-            <h4>Lorem, ipsum dolor.</h4>
-            <p>
-              <b>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                modi blanditiis iste? Velit officiis nostrum excepturi minus,
-              </b>
-              molestiae expedita illum aperiam, unde, asperiores inventore ut.
-              Vero ea dicta totam nostrum! Sunt ad iusto aperiam aspernatur
-              <br />
-              <br />
-              harum, suscipit ratione reiciendis assumenda omnis vero quo minima
-              laborum, incidunt veritatis explicabo similique soluta excepturi
-              nemo est laboriosam mollitia recusandae ducimus ipsa. Reiciendis,
-              aspernatur. Saepe repellat neque vel iure? Enim quas, eos velit
-              sequi, incidunt id natus eaque laudantium fuga rerum voluptatem in
-              aspernatur odit suscipit veritatis est molestiae sapiente
-              distinctio nemo architecto ab? Pariatur, itaque ullam ipsa, velit
-              <b>
-                illum vero at quis corrupti facilis ducimus impedit libero eaque
-              </b>
-              voluptates saepe cumque ab nemo, excepturi aut voluptate facere
-              laborum? Inventore quae saepe dolore rerum. Voluptate eius veniam
-              error aspernatur quidem quas perferendis! Rerum ipsum ipsam eaque,
-              labore deleniti distinctio iure alias aperiam hic ab laboriosam.
-              Quam at debitis odit deserunt, consequatur reiciendis adipisci
-              facere. Nisi consectetur eius
-              <br />
-              <br />
-              <b>
-                cumque, aliquid accusamus aperiam ut corrupti quis. Placeat,
-                perspiciatis eum?
-              </b>
-              nemo est laboriosam mollitia recusandae ducimus ipsa. Reiciendis,
-              aspernatur. Saepe repellat neque vel iure? Enim quas, eos velit
-              sequi, incidunt id natus eaque laudantium fuga rerum voluptatem in
-              aspernatur odit suscipit veritatis est molestiae sapiente
-              distinctio nemo architecto ab? Pariatur, itaque ullam ipsa, velit
-              <b>
-                illum vero at quis corrupti facilis ducimus impedit libero eaque
-              </b>
-              voluptates saepe cumque ab nemo, excepturi aut voluptate facere
-              laborum? Inventore quae saepe dolore rerum. Voluptate eius veniam
-              error aspernatur quidem quas perferendis! Rerum ipsum ipsam eaque,
-              labore deleniti distinctio iure alias aperiam hic ab laboriosam.
-              Quam at debitis odit deserunt, consequatur reiciendis adipisci
-              facere. Nisi consectetur eius
-              <b>
-                <br />
-                <br />
-                cumque, aliquid accusamus aperiam ut corrupti quis. Placeat,
-                perspiciatis eum?
-              </b>
-            </p>
+            <h4 className="hebrew">קצת עליי:</h4>
+            <p className="hebrew">היי אני <b>אור שנקרמן</b>, חושף לכם את חיי היומיום שמתמלאים ב<b>נסיעות</b>, <b>צילום</b>, ורגעים שמתמשכים ל<b>סיפורים מדהימים</b>. אני בן 24, אני <b>צלם חתונות עצמאי</b> מתל אביב. העבודה שלי היא לא רק עיסוק; זו החירות האישית שאני מוצא בכל <b>צילום חדש</b>.</p>
+            <br />
+<p className="hebrew">אני לא יכול שלא להתמסר ל<b>עולם</b> ולא לשתף את ה<b>חוויות המדהימות</b> שאני חווה במסעות שלי. כל פינה חדשה, כל ים והר, הם בשבלי לוחות <b>ציור חדשים</b> ל<b>סיפורים</b> שאני מצלם. אני מאמין שיש משהו <b>ייחודי</b> בכל <b>מקום</b>, והמשימה שלי היא ל<b>לכוד</b> את ה<b>יופי</b> שבזמן שהוא קיים.</p>
+<br />
+<p className="hebrew">כ<b>צלם</b>, התפקיד שלי הוא לא רק ל<b>צלם</b>; זה גם ל<b>ספר סיפור</b>. אני יודע ל<b>התאים</b> את ה<b>סגנון</b> שלי ל<b>אירוע</b>, ל<b>נווט</b> בקלות מ<b>סגנון</b> ל<b>סגנון</b> יחודי , כי כל <b>חתונה</b> היא <b>ייחודית</b>, וה<b>סיפור</b> צריך ל<b>התאים</b> אליה.</p>
+<br />
+<p className="hebrew">ואז יש עוד משהו שאני מצלם דרכו וזה <b>רחפנים</b>. השילוב שלי בין <b>טכנולוגיה</b> ו<b>אהבה</b> ל<b>הרפתקאות</b> מוביל ל<b>צילומים מאוויר</b> שהם פשוט <b>מדהימים</b>. אני יודע להוסיף קצת <b>גוון</b> ו<b>דרמה</b> לתיק ה<b>עבודות</b> שלי.</p>
+<br />
+<p className="hebrew">אני לא רק <b>צלם</b>. אני <b>סופר חזוני</b> שמבין את ה<b>חשיבות</b> של כל <b>רגע</b>. כשאני מצלם, אני בעצם יוצר <b>סיפור מתמיד</b>, של <b>אהבה</b>, <b>שמחה</b>, ו<b>חגיגה</b>. זה לא פשוט <b>צילומים</b>; זה אמנות, זה ה<b>סיפור</b> שלך בכל <b>תמונה</b>. אז אם אתה מחפש <b>צלם חתונות</b> שמבין את ה<b>אמנות</b> וגם יודע ל<b>השתמש</b> ב<b>טכנולוגיה</b> בצורה ייחודית, אתה במקום הנכון. אני כאן, אני <b>אור שנקרמן</b>, ואני מזמין אותך להיות חלק מה<b>סיפור</b>.</p>
+
           </div>
         </div>
 

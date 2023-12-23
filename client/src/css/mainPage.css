@@ -161,6 +161,9 @@ body {
 .textWrapper:hover .replacementText {
   opacity: 1;
 }
+.hebrew{
+  direction: rtl;
+}
 
 /* for the scrool down */
 .scroll {
