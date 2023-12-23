@@ -5,37 +5,51 @@ function Contact() {
   return (
     <div>
       <Nav />
-      <div className="image-contact-container">
+      <div className="video-container">
         <div className="content-container">
-          <h2>THIS IS MAIN TOPIC BLABLALBA.</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h2>CONTACT</h2>
+          <p></p>
         </div>
-        {/* <div className="scrool-down-btn">
-          <i>V/scrool down</i>
-        </div> */}
-        <div className="image-contact-content">
+        <div className="image-projects-content">
           <img
             src="https://assets.picflow.io/images/resized/1280x854q85/7ba931cc-5cb7-4c25-ac65-24eefe97a067.jpg"
             alt=""
           />
-          {/* <image src={videoBg} autoPlay loop muted /> */}
+          ;{" "}
         </div>
       </div>
 
-      <div className="main-content-contact-container">
-        <h3>בואו נדבר</h3>
-        <form action="">
-          <div className="first-section">
-            <input type="text" placeholder="שם   " />
-            <input type="text" placeholder="טלפון" />
-          </div>
-          <div className="secend-section">
-            <input type="text" placeholder="מייל" />
-          </div>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button>שלח</button>
-        </form>
-        <div className="croos-line"></div>
+      <div className="main-content-projects-container">
+        <h3>דברו איתי</h3>
+        <p>
+          שאלות ?
+          <br />
+          מוכנים להתחיל במסע הוויזואלי שלכם ?
+          <br /> אני כאן ומתרגש להתחבר !
+          <br /> בין אם אתם מתכננים חתונה, יש לכם שאלות על שירותי הצילום שלי, או
+          פשוט רוצים לשתף איתי את סיפור החיים שלכם, אני כמובן כאן לשיחה.
+          <br />
+          <br />
+          אני מאמין בכוח של קשרים אישיים, ואני מתרגש לשמוע מכם. בואו נדבר על
+          החזון שלכם, על הרגעים המיוחדים שלכם, ואיך אנו יכולים לשתף פעולה כדי
+          ליצור זיכרונות דרך עדשת המצלמה.
+          <br />
+          <br />
+          השאירו לי הודעה למטה, ונתחיל את השיחה.
+          <br /> מחכה לצלם את הסיפור שלכם!
+        </p>{" "}
+        <a href="mailto:Shenk1337@gmail.com" id="herf" className="hoverMe">
+          {" "}
+          שלחו מייל וניצור קשר
+          {/* <p>שלחו מייל וניצור קשר</p> */}
+        </a>
+        <div className="large-image">
+          <img
+            className="large"
+            src="https://assets.picflow.io/images/resized/480x320q85/635f0262-9a4c-48ad-9238-4aae62bdd372.jpg"
+            alt=""
+          />{" "}
+        </div>
       </div>
     </div>
   );
