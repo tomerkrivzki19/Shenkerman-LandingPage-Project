@@ -11,7 +11,6 @@ function Projects() {
   return (
     <>
       <Nav />
-
       <div className="video-container">
         <div className="content-container">
           <h2>MY PROJECTS</h2>

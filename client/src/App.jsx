@@ -32,15 +32,11 @@ function App() {
           <video src={videoBg} autoPlay loop muted playsInline />
         </div>
       </div>
-
+      {/* <div className="LG-container"> */}
       <div className="main-content-container">
         <div className="client-about-container">
           <div className="client-image-container">
-            <img
-              id="sectionID"
-              src="https://images.squarespace-cdn.com/content/v1/568429b7c647addb5746fafe/425738c3-fe46-4019-912f-f81e9bb997a2/Hearnes-Moab-Utah-Elopement-Photographers-5.jpg?format=750w"
-              alt=""
-            />
+            <img id="sectionID" src="https://i.imgur.com/YXi3PtW.jpeg" alt="" />
           </div>
           <div className="client-about-lorem-container">
             <h4 className="hebrew">קצת עליי:</h4>
@@ -174,6 +170,7 @@ function App() {
         </div>
       </div>
     </div>
+    // </div>
   );
 }
 
