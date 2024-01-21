@@ -290,5 +290,6 @@ video {
 /* opacity effect */
 .opacity:hover {
   cursor: pointer;
-  filter: opacity(50%);
+  filter: opacity(25%);
+  border: 1px solid black;
 }

@@ -32,7 +32,6 @@ function App() {
           <video src={videoBg} autoPlay loop muted playsInline />
         </div>
       </div>
-      {/* <div className="LG-container"> */}
       <div className="main-content-container">
         <div className="client-about-container">
           <div className="client-image-container">
@@ -170,7 +169,6 @@ function App() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
