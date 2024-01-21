@@ -1,3 +1,34 @@
+.footer {
+  background-color: #f2f3f5;
+  /* margin-top: 0.4em; */
+  /* padding: 4em 2em; */
+  padding-top: 2em;
+  text-align: center;
+  z-index: 100;
+
+  position: relative;
+}
+.footer .lorem-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .icons-container {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .copyright {
+  padding-top: 40px;
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 768px) {
   .footer {
     background-color: #f2f3f5;

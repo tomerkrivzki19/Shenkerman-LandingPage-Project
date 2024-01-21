@@ -20,6 +20,7 @@ function Contact() {
       </div>
 
       <div className="main-content-projects-container">
+        {/* <div className="contact-container-lorem"> */}
         <h3>דברו איתי</h3>
         <p>
           שאלות ?
@@ -38,17 +39,19 @@ function Contact() {
           השאירו לי הודעה למטה, ונתחיל את השיחה.
           <br /> מחכה לצלם את הסיפור שלכם!
         </p>{" "}
-        <a href="mailto:Shenk1337@gmail.com" id="herf" className="hoverMe">
-          {" "}
-          שלחו מייל וניצור קשר
-          {/* <p>שלחו מייל וניצור קשר</p> */}
-        </a>
+        <div className="mail">
+          <a href="mailto:Shenk1337@gmail.com" id="herf" className="hoverMe">
+            {" "}
+            שלחו מייל וניצור קשר
+          </a>
+        </div>
         <div className="large-image">
           <img
             className="large"
             src="https://assets.picflow.io/images/resized/480x320q85/635f0262-9a4c-48ad-9238-4aae62bdd372.jpg"
             alt=""
           />{" "}
+          {/* </div> */}
         </div>
       </div>
     </div>
