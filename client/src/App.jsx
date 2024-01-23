@@ -29,7 +29,14 @@ function App() {
           </div>
         </div>
         <div className="video-content">
-          <video src={videoBg} autoPlay loop muted playsInline />
+          <video
+            src={videoBg}
+            autoPlay
+            loop
+            muted
+            webkit-playsinline
+            playsInline
+          />
         </div>
       </div>
       <div className="main-content-container">
@@ -80,7 +87,6 @@ function App() {
             </p>
           </div>
         </div>
-        
 
         <svg class="section-divider" viewBox="0 0 1920 60" aria-hidden="true">
           <path
