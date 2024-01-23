@@ -133,7 +133,7 @@ video {
   .video-content {
     position: fixed;
     transform: translate3d(0px, 0px, 0px);
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
   }
   .content-container {
