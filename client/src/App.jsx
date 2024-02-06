@@ -1,10 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import videoBg from "./assets/shorter-wedding-video-two.mp4";
 import { IoIosArrowDown } from "react-icons/io";
 
 import Commercial from "./components/Commercial";
 import Nav from "./components/Nav";
 function App() {
+  const ref = useRef();
+  const handleTouchStart = () => {
+    const video = ref.current;
+    if (video && video.paused) {
+      video.play();
+    }
+  };
   return (
     <div>
       <Commercial />
@@ -30,13 +37,16 @@ function App() {
         </div>
         <div className="video-content">
           <video
-            src={videoBg}
+            ref={ref}
+            // src={videoBg}
             autoPlay
             loop
             muted
-            webkit-playsinline
             playsInline
-          />
+            onLoad={handleTouchStart}
+          >
+            <source src={videoBg} />
+          </video>
         </div>
       </div>
       <div className="main-content-container">
