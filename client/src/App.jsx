@@ -38,6 +38,7 @@ function App() {
         <div className="video-content">
           <video
             ref={ref}
+            poster="https://assets.picflow.io/images/resized/1280x853q85/1ec4fbaa-f965-426f-b932-d3c4156aabde.jpg"
             // src={videoBg}
             autoPlay
             loop
@@ -45,7 +46,7 @@ function App() {
             playsInline
             onLoad={handleTouchStart}
           >
-            <source src={videoBg} />
+            <source src={videoBg} type="video/mp4" />
           </video>
         </div>
       </div>
