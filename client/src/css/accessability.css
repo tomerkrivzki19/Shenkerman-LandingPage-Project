@@ -8,3 +8,28 @@
 #NagishLiMove {
   display: none;
 } */
+#NagishLiMove {
+  display: none;
+}
+#NagishLiBar {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.15 !important;
+  -webkit-text-size-adjust: 100% !important;
+  box-sizing: border-box !important;
+  z-index: 9999998 !important;
+  user-select: none !important;
+  backface-visibility: hidden !important;
+  color: inherit !important;
+  animation: none !important;
+  transition-property: none !important;
+  vertical-align: baseline !important;
+  font-weight: bold !important;
+  outline: none !important;
+  direction: rtl;
+  text-align: right !important;
+  inset: auto 0px 0vh auto !important;
+  position: fixed !important;
+}
