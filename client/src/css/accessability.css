@@ -1,0 +1,9 @@
+#NagishLiBarStrip {
+  position: fixed !important;
+  left: 0px !important;
+  bottom: 0px !important;
+}
+
+#NagishLiMove {
+  display: none;
+}
