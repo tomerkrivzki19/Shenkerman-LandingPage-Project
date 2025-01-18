@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Nav from "./Nav";
 // main image
 import bgimage from "../assets/shenk-5.jpg";
@@ -60,4 +60,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default memo(Projects);
